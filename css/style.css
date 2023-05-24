@@ -1,0 +1,22 @@
+body{
+    display: flex;
+    justify-content: center;
+    color: #5E56E7;
+    background-color: #F8F7FF;
+}
+.textbox{
+    border-radius: 4px;
+    padding: 0px 10px 0px 10px;
+    height: 40px;
+}
+.genreCard{
+    border-radius: 4px;
+    padding: 0px 10px 0px 10px;
+    height: 50px;
+}
+.bookCard{
+    width: 114px;
+    height: 162px;
+    border-radius: 8px;
+    box-shadow: 0 2px 5px 0 rgba(211, 209, 238, 0.5);
+}
