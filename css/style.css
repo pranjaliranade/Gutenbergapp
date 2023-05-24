@@ -1,17 +1,25 @@
 body{
     display: flex;
     justify-content: center;
-    color: black;
+    color: #5E56E7;
     background-color: #F8F7FF;
+    font-family: "PT Sans", Calibri, Tahoma, sans-serif;
 }
-.heading{
+.header{
     width: 100%;
     padding: 10px 10px 10px 10px;
+    position: relative;
+    display: block;
 }
 .textbox{
     border-radius: 4px;
     padding: 0px 10px 0px 10px;
     height: 40px;
+}
+.buttons{
+    width: 50%;
+    position: relative;
+    display: block;
 }
 .genreCard{
     border-radius: 4px;
@@ -20,7 +28,7 @@ body{
     height: 50px;
     text-align: center;
     position: relative;
-    color: green;
+    
 }
 .bookCard{
     width: 114px;
