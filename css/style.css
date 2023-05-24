@@ -1,14 +1,21 @@
 @font-face{
-    font-family: "Montserat";
-    src: url(/Montserrat/Montserrat-Medium.ttf);
+    font-family: "Montserat regular";
+    src: url(/Montserrat/Montserrat-Regular.ttf);
+    
+}
+@font-face{
+    font-family: "Montserat semi bold";
     src: url(/Montserrat/Montserrat-SemiBold.ttf);
+}
+styledimg{
+    
 }
 body{
     display: flex;
     justify-content: center;
     color: #5E56E7;
     background-color: #F8F7FF;
-    font-family: "PT Sans", Calibri, Tahoma, sans-serif;
+    font-family: "Montserat semi bold", Calibri, Tahoma, sans-serif;
 }
 .header{
     width: 100%;
@@ -16,6 +23,13 @@ body{
     position: relative;
     display: block;
 }
+.h1{
+    font-size: 48px;
+}
+.h2{
+    font-size: 30px;
+}
+
 .textbox{
     border-radius: 4px;
     padding: 0px 10px 0px 10px;
@@ -33,7 +47,8 @@ body{
     height: 50px;
     text-align: center;
     position: relative;
-    
+    font-family: "Montserat regular", Calibri, Tahoma, sans-serif;
+    font-size: 20px;
 }
 .bookCard{
     width: 114px;
