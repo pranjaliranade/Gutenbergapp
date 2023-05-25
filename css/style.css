@@ -19,6 +19,12 @@
     height: 20px;
     float: right;
 }
+.Rectangle {
+ width: 114px;
+ height: 162px;
+ border-radius: 8px;
+ box-shadow: 0 2px 5px 0 rgba(211, 209, 238, 0.5);
+}
 body{
     display: flex;
     justify-content: center;
@@ -69,16 +75,13 @@ body{
 }
 
 .search{
-    
+    background-color: #F0F0F6;
     border-radius: 4px;
     padding: 0px 10px 0px 10px;
     height: 40px;
     width: 600px;
 }
-.searchimg{
-    position: relative;
-    padding-left: 10px;
-}
+
 
 @media screen and (max-width: 600px) {
     .buttons {
