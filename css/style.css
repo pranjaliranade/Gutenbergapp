@@ -11,7 +11,7 @@
     width: 20px;
     height: 20px;
     float: left;
-    margin: 25px;
+    padding-right: 10px;
     
 }
 #icon2{
@@ -22,7 +22,7 @@
 body{
     display: flex;
     justify-content: center;
-    color: red;
+    color: #5E56E7;
     background-color: #F8F7FF;
     font-family: "Montserat semi bold", Calibri, Tahoma, sans-serif;
 }
@@ -67,6 +67,17 @@ body{
     border-radius: 8px;
     box-shadow: 0 2px 5px 0 rgba(211, 209, 238, 0.5);
 }
+
+.search{
+    
+    border-radius: 4px;
+    padding: 0px 10px 0px 10px;
+    height: 40px;
+}
+.searchimg{
+    position: relative;
+}
+
 @media screen and (max-width: 600px) {
     .buttons {
       float: none;
