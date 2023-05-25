@@ -8,18 +8,13 @@ const App = () => {
         setIsLoading(true);
 
         try{
-            var requestOptions = {
-                method: 'GET',
-                redirect: 'follow'
-              };
-              
-            const response = await fetch("http://skunkworks.ignitesol.com:8000/books/?topic=fiction", requestOptions)
-                .then(response => response.text())
-                .then(result => console.log(result))
-                .catch(error => console.log('error', error));
-        }
-        catch{
             
+            const response = await fetch("http://skunkworks.ignitesol.com:8000/books/?topic=fiction", requestOptions)
+            .then(response => response.json())
+            .then(result => console.log(result))
+            .catch(error => console.log('error', error));
+
         }
+        catch{};
     }
 }
