@@ -73,9 +73,11 @@ body{
     border-radius: 4px;
     padding: 0px 10px 0px 10px;
     height: 40px;
+    width: 600px;
 }
 .searchimg{
     position: relative;
+    padding-left: 10px;
 }
 
 @media screen and (max-width: 600px) {
